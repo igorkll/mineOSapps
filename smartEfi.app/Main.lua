@@ -14,5 +14,6 @@ file:close()
 
 eeprom.setData(fs.get("/").address)
 eeprom.set(efiLoader)
+eeprom.setLabel("Smart Efi")
 
 computer.shutdown(true)
